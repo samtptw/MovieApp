@@ -20,6 +20,7 @@
       <%=image_tag a.image %>
       <h3 class="actor-name"><%=a.first_name%> <%=a.last_name %></h3>
       <p class="actor-bio"><%=a.bio %></p>
+      <%=link_to "See Actor", actor_path(a)%>  <!--function improve -->
     </div>
     <% end %>
   </div>

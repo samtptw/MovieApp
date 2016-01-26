@@ -20,7 +20,9 @@
       <h3 class="movie-title"><%=m.title%></h3>
       <p class="movie-release-year"><%=m.release_year%></p>
       <p class="movie-plot"><%=m.plot%></p>
+      <%=link_to "See Movie", movie_path(m)%>  <!--function improve -->
     </div>
+
     <%end%>
   </div>
 </div>
